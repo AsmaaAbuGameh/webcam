@@ -1,0 +1,14 @@
+
+
+<div class="container">
+<img [src]="imageSrvice?.image?.imageAsDataUrl" alt="hhhkhk" width="150">
+
+    <br><br>
+    <textarea [(ngModel)]="description" id="" cols="30" rows="5"></textarea>
+    <br><br>
+    <input [(ngModel)]="email"  type="email">
+    
+
+<button (click)="send()">send to server</button>
+</div>
+
